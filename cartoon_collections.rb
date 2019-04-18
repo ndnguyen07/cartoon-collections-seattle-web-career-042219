@@ -11,8 +11,8 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect {|call| call.capitalize + "!"}
 end
 
-def long_planeteer_calls(call_long)\
-  
+def long_planeteer_calls(call_long)
+  call_long.any?
 end
 
 def find_the_cheese# code an argument here
